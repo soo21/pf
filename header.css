@@ -72,7 +72,7 @@ header ul.gnb li a {
   font-size: 0;
 }
 header ul.gnb li:nth-child(1) {
-  background-image: url(<%= BASE_URL %>css/img/profile.png);
+  background-image: url(img/profile.png);
   background-size: 110%;
 }
 header ul.gnb li:nth-child(1)::before {
@@ -84,7 +84,7 @@ header ul.gnb li:nth-child(1)::before {
   text-transform: capitalize;
 }
 header ul.gnb li:nth-child(2) {
-  background-image: url(../img/flask.png);
+  background-image: url(./img/flask.png);
   background-size: 95%;
   background-color: #7ddac2;
 }
@@ -97,11 +97,11 @@ header ul.gnb li:nth-child(2)::before {
   text-transform: capitalize;
 }
 header ul.gnb li:nth-child(3) {
-  background-image: url(../img/register.png);
+  background-image: url(./img/register.png);
   background-size: 110%;
 }
 header ul.gnb li:nth-child(4) {
-  background-image: url(../img/comment.png);
+  background-image: url(./img/comment.png);
   background-size: 110%;
 }
 header ul.gnb li:hover{
