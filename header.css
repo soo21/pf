@@ -72,7 +72,7 @@ header ul.gnb li a {
   font-size: 0;
 }
 header ul.gnb li:nth-child(1) {
-  background-image: url(../img/profile.png);
+  background-image: url(<%= BASE_URL %>css/img/profile.png);
   background-size: 110%;
 }
 header ul.gnb li:nth-child(1)::before {
