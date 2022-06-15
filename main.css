@@ -1,0 +1,730 @@
+main{
+  height:300%;
+  background: linear-gradient(to top, rgba(20, 20, 20, 0) 20%, rgba(255, 255, 255, 0.25) 40%, rgba(255, 255, 255, 0.5) 60%, rgb(255, 255, 255) 100%), url(../img/h.jpg);
+  background-position-x: 0%, 0%;
+  background-position-y: 0%, 0%;
+  background-size: auto, auto;
+  background-size: auto, auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section{
+  height: calc(100% / 3);
+  background-size: auto, auto;
+  background-position-x: 0%, 0%;
+  background-position-y: 0%, 0%;
+  background-size: auto, auto;
+  background-size: auto, auto;
+  background-size: 100%;
+  background-position: center;
+}
+#mainFooter{
+  height: 100%;
+}
+section .wrap1{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: linear-gradient( to bottom, #2628ff 50%, #2628c4 60%, black );
+}
+section .wrap{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+#about{
+  height: 0;
+  width: 0;
+}
+#about .profile{
+  background-image: url(../img/pf.png);
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*! border-radius: 50%; */
+  background-size: 100%;
+  position: absolute;
+  top: calc((100% - 510px) / 2);
+  left: 18%;
+}
+#about .profile a{
+background-image: url(../img/cat.jpg);
+width: 285px;
+height: 285px;
+display: block;
+/*! text-align: center; */
+/*! justify-content: center; */
+/*! position: relative; */
+/*! flex-direction: column; */
+/*! align-items: flex-end; */
+margin: 110px 113px;
+border-radius: 50%;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+#about div.about1{
+  
+  width: 650px;
+  height: 360px;
+  position: absolute;
+  left: 50%;
+  text-align: left;
+  top: calc((100% - 380px) / 2);
+}
+#about div.about1 h1{
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 30px;
+  height: 70px;
+  color: #0c486c;
+}
+#about div.about1 ul{
+  
+  position: relative;
+  width: 650px;
+  height: 280px;
+  color: #000;
+}
+#about ul.about2 li{
+  
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 650px;
+  height: 280px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+
+
+
+
+
+
+#skills1{
+}
+#skills1 div.wrap div.innr{
+  
+  display: flex;
+  justify-content: space-around;
+}
+#skills1 div.wrap div.innr div.skills{
+  background-image: url(../img/skills.png);
+  width: 250px;
+  height: 360px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 10px 20px 50px 60px white;
+  border-radius: 50%;
+}
+#skills1 div.wrap div.innr div.skills:nth-child(1){
+  
+}
+#skills1 div.wrap div.innr div.skills:nth-child(1)::after{
+  content: "HTML";
+  position: relative;
+  top: 350px;
+  text-align: center;
+  /*! justify-content: center; */
+  /*! align-items: center; */
+  display: grid;
+  font-size: 20px;
+}
+#skills1 div.wrap div.innr div.skills:nth-child(2){
+  
+}
+#skills1 div.wrap div.innr div.skills:nth-child(2)::after{
+  content: "JAVASCRIPT";
+  position: relative;
+  top: 350px;
+  text-align: center;
+  /*! justify-content: center; */
+  /*! align-items: center; */
+  display: grid;
+  font-size: 20px;
+}
+#skills1 div.wrap div.innr div.skills:nth-child(3){
+  
+}
+#skills1 div.wrap div.innr div.skills:nth-child(3)::after{
+  content: "CSS";
+  position: relative;
+  top: 350px;
+  text-align: center;
+  /*! justify-content: center; */
+  /*! align-items: center; */
+  display: grid;
+  font-size: 20px;
+}
+#skills1 div.wrap div.innr div.skills:nth-child(4){
+  
+}
+#skills1 div.wrap div.innr div.skills:nth-child(4)::after{
+  content: "HTML";
+  position: relative;
+  top: 350px;
+  text-align: center;
+  /*! justify-content: center; */
+  /*! align-items: center; */
+  display: grid;
+  font-size: 20px;
+}
+#contact{
+}
+/* 비전 */
+#vision{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: calc((100% - 1400px) / 2);
+}
+#vision::before{
+  content: "";
+  display: block;
+  width: 700px;
+  height: 400px;
+  background-image: url(https://images.samsung.com/is/image/samsung/p5/sec/aboutsamsung/2017/samsung-main-vision-large.jpg?$ORIGIN_JPG$);
+  background-size: cover;
+  position: relative;
+  left: 100px;
+  z-index: 2;
+  top: -100px;
+}
+#vision .wrap{
+  background-color: #eee;
+  padding: 100px 100px 100px 200px;
+  width: fit-content;
+  position: relative;
+  margin: initial;
+  text-align: center;
+  height: auto;
+}
+#vision .wrap::before{
+  content:"";
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  border: 1px solid;
+  left: calc((100% - 700px) / 2);
+  top: calc((100% - 400px) / 2);
+}
+#vision hgroup{
+  
+}
+#vision hgroup h2{
+  
+}
+#vision hgroup h3{
+  margin: 20px 0;
+}
+#vision hgroup h4{
+  
+}
+#vision a{
+
+}
+
+/* 메뉴스토리 */
+#portfolio {
+}
+#portfolio .wrap {
+  height: 100%;
+  /*! width: 100%; */
+  /*! padding-left: calc((100% - 1100px) / 2); */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+#portfolio h2 {
+  position: relative;
+  z-index: 1;
+}
+#portfolio h2::after{
+ /*! content: ""; */ 
+ width: 20px;
+ height: 20px;
+ display: inline-block;
+ background-color: red;
+ margin-left: 10px;
+}
+#portfolio ul.list {
+  position: relative;
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#portfolio ul.list>li {
+  margin-bottom: 30px;
+  width: 30%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 9px #d1cfcf;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: all 0.7s;
+  transition-property: background-img;
+}
+
+
+/* 변형 완료 1초
+transition-duration: 1s;
+/*빠른 시작 서서히 감속
+transition-timing-function: ease-out;
+}
+}
+
+
+ transition-property: background-color;
+/*변형 완료 1초
+transition-duration: 1s;
+/*빠른 시작 서서히 감속
+transition-timing-function: ease-out;
+}
+*/
+/*hover시 있을 변형을 입력합니다
+div:hover {
+*/
+/*rgb컬러a알파 0~1까지 화이트 0.3만큼 알파 혹은 반투명
+background: rgba(255, 255, 255, 0.3);
+ 변형할 것은 배경 1초, 빠른 시작 서서히 감속
+transition: background 1s ease-out;
+} */
+
+
+#portfolio ul.list>li:nth-child(1):hover{
+  background-image: url(../img/pfpf1.png);
+  /*! background: rgba(255, 255, 255, 0.3); */
+  transition: background 0.5s ease-out;
+}
+#portfolio ul.list>li:nth-child(2):hover{
+  background-image: url(../img/pfpf2.png);
+  transition: background 0.5s ease-out;
+}
+#portfolio ul.list>li:nth-child(3):hover{
+  background-image: url(../img/pfpf3.png);
+  transition: background 0.5s ease-out;
+}
+#portfolio ul.list>li:nth-child(4):hover{
+  background-image: url(../img/pfpf4.png);
+  transition: background 0.5s ease-out;
+}
+#portfolio ul.list>li:nth-child(5):hover{
+  background-image: url(../img/pfpf5.png);
+  transition: background 0.5s ease-out;
+}
+#portfolio ul.list>li:nth-child(6):hover{
+  background-image: url(../img/pfpf6.png);
+  transition: background 0.5s ease-out;
+}
+#portfolio ul.list>li:hover{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#portfolio ul.list li h3 {
+  width: auto;
+  font-size: 21px;
+}
+#portfolio ul.list li p{
+  
+  line-height: 3;
+}
+#portfolio ul.list li a{
+  background-color: #3a8785;
+  color: #fff;
+  font-size: 13px;
+  padding: 2px 10px;
+}
+#menustory ul.list li h3 a {
+  font-size: 16px;
+  line-height: 1.4;
+}
+#portfolio ul.list li h3 a span {
+  border-bottom: 2px solid #9e9898;
+  width: fit-content;
+  padding-bottom: 3px;
+}
+#portfolio ul.list li:not(:nth-child(1)) h3 a{
+ font-size: 0;
+}
+#portfolio ul.list li:not(:nth-child(1)) h3 a span{
+  color: #ccc;
+  border-bottom:none;
+}
+#portfolio ul.list li div.listin {
+  position: absolute;
+  left: 40%;
+  top: -40px;
+  width: 60%;
+}
+#portfolio ul.list li ul {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+#portfolio ul.list li ul li {
+  
+  width: 15%;
+  position: relative;
+}
+#portfolio ul.list li ul li:nth-child(1){
+  
+  width: 55%;
+}
+#portfolio ul.list li ul li a {
+  
+  display: block;
+}
+#portfolio ul.list li ul li a img {
+  width: 100%;
+}
+#portfolio ul.list li ul li h4 {
+  background-color: #000;
+  color: #fff;
+  line-height: 3;
+  text-align: center;
+  width: 300px;
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 150px);
+}
+#portfolio ul.list li ul li:not(:nth-child(1)) h4{
+  display: none;
+}
+#portfolio span.control{
+  width: 266px;
+  height: 50px;
+  display: block;
+  position: absolute;
+  bottom: -23px;
+  left: calc(50% - 328px);
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+#portfolio li:not(:nth-child(1)) span.control{
+  
+  display: none;
+}
+#portfolio span.control a{
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+#portfolio span.control a:nth-child(1)::before{
+  content: "";
+  width: 3px;
+  height: 10px;
+  display: block;
+  background-color: #fff;
+  transform:translateY(4px) rotate(45deg) translateX(-2px);
+  transform-origin: 100% 100%;
+}
+#portfolio span.control a:nth-child(1)::after{
+  content: "";
+  width: 24px;
+  height: 3px;
+  display: block;
+  background-color: #fff;
+}
+#portfolio span.control a:nth-child(2)::before{
+  content: "";
+  width: 24px;
+  height: 3px;
+  display: block;
+  background-color: #fff;
+  transform:translateY(10px);
+}
+#portfolio span.control a:nth-child(2)::after{
+  content: "";
+  width: 3px;
+  height: 10px;
+  display: block;
+  background-color: #fff;
+  transform: translateY(21px) rotate(-45deg) translateX(31px);
+  transform-origin: 0% 100%;
+}
+
+/* 에이리스트 */
+#alist {
+  background-image: linear-gradient(354.6deg, #f8dec6 25%,#e0bea2 25.2%);
+  position: relative;
+}
+#alist::before{
+ content:"ALIST"; 
+ font-size: 90px;
+ font-weight: 900;
+ letter-spacing: 29px;
+ position: absolute;
+ left: 84%;
+ transform: rotate(90deg);
+ transform-origin: 0 100%;
+ color: #e0bea2;
+ text-shadow: 2px -5px 1px #f8dec6;
+}
+#alist .wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-left: calc((100% - 1100px) / 2);
+  box-sizing: border-box;
+  background-image: url(../img/alist.png);
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 84%;
+  background-size: 36%;
+}
+#alist hgroup {
+  
+}
+#alist hgroup h2 {
+  
+}
+#alist hgroup h3 {
+  
+  line-height: 1.3;
+}
+#alist hgroup h4 {
+}
+#alist p {
+  color: #666;
+  width: 37%;
+  line-height: 1.4;
+}
+
+/* support */
+#support {
+  
+}
+#support .wrap {
+  width: 100%;
+  padding-left: calc((100% - 1100px) / 2);
+  box-sizing: border-box;
+}
+#support h2 {
+  position: relative;
+}
+#support h2 span {
+  
+}
+#support .list {
+  margin-left: 36%;
+  width: 64%;
+  overflow: hidden;
+  margin-top: -48px;
+  position: relative;
+}
+#support .list ul {
+  display: flex;
+  width: 400%;
+}
+#support .list ul li {
+  width: 25%;
+}
+#support .list ul li::before{
+  content: "";
+  width: 350px;
+  height: 350px;
+  display: inline-block;
+  background-image: url(../img/support1.jpg);
+  background-size: cover;
+  float: left;
+}
+#support .list ul li h3 {
+  float: left;
+  width: calc(100% - 350px);
+  padding-left: 40px;
+  box-sizing: border-box;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+#support .list ul li h3 a {
+  text-decoration: underline;
+}
+#support .list ul li:nth-child(1) h3 a::before{
+  content: "";
+  background-image: url(../img/su1.png);
+  width: 48px;
+  height: 48px;
+  display: block;
+}
+#support .list ul li p {
+  float: left;
+  width: calc(100% - 350px);
+  padding-left: 40px;
+  box-sizing: border-box;
+  padding-right: 163px;
+}
+#support .list span.control {
+  position: absolute;
+  bottom: 20px;
+  left: 390px;
+  width: 195px;
+  line-height: 2.2;
+  background-color: #666;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+
+#support .list span.control a{
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+#support .list span.control a:nth-child(1){
+  justify-content: flex-start;
+}
+#support .list span.control a:nth-child(2){
+  justify-content: flex-end;
+}
+#support .list span.control a:nth-child(1)::before{
+  content: "";
+  border: 8px solid #fff;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 0px solid transparent;
+}
+#support .list span.control a:nth-child(1)::after{
+  content: "";
+  width: 16px;
+  height: 2px;
+  background-color: #fff;
+}
+#support .list span.control a:nth-child(2)::before{
+  content: "";
+  width: 16px;
+  height: 2px;
+  background-color: #fff;
+}
+#support .list span.control a:nth-child(2)::after{
+  content: "";
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #fff;
+  border-right: 0px solid transparent;
+}
+
+/* 프랜차이즈 */
+#franchise {
+ 
+  background-color: #f5f5f5;
+}
+#franchise .wrap {
+  text-align: center;
+}
+#franchise hgroup {
+ 
+}
+#franchise hgroup h2 {
+ 
+}
+#franchise hgroup h3 {
+ 
+}
+#franchise hgroup h3 span {
+ 
+}
+#franchise p {
+ 
+}
+#franchise ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#franchise ul li {
+  position: relative;
+}
+#franchise ul li::before{
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background-color: #000;
+  position: absolute;
+  transition: all 0.5s;
+}
+#franchise ul li:hover::before{
+ width: 100%; 
+}
+#franchise ul li a {
+  background-color: #fff;
+  border: 2px solid;
+  width: 250px;
+  display: block;
+  line-height: 2.2;
+  text-align: left;
+  padding-left: 24px;
+  box-sizing: border-box;
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 24px;
+  transition:all 0.5s;
+}
+#franchise ul li:hover a{
+  background-color: transparent;
+}
+#franchise ul li a:hover{
+  color:white;
+}
+#franchise ul li a::before{
+  content: "";
+  width: 3px;
+  height: 13px;
+  display: inline-block;
+  background-color: #000;
+  position: absolute;
+  right: 27px;
+  top: 11px;
+  transform: rotate(-45deg);
+  transition:all 0.5s;
+}
+#franchise ul li a:hover::before{
+ background-color: white; 
+}
+#franchise ul li a::after{
+  content: "";
+  width: 26px;
+  height: 4px;
+  display: inline-block;
+  background-color: #000;
+  transition:all 0.5s;
+}
+#franchise ul li a:hover::after{
+ background-color: white; 
+}

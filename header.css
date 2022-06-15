@@ -1,0 +1,158 @@
+header{
+  /*! background-color: #dcf1f2; */
+  padding-top: 0;
+  padding-bottom: 0;
+  position: fixed;
+  width: 70px;
+  padding-left: 0;
+  height: 100%;
+  /*! box-shadow: 3px 0 0 #999; */
+  z-index: 10;
+}
+header div.wrap{
+  width: 100%;
+  margin: 0 auto;
+  /*! display: flex; */
+  justify-content: space-between;
+  position: absolute;
+  height: 100%;
+  margin-top: 0px;
+}
+header h1 {
+  /*! text-align: start; */
+  /*! transform: rotate(90deg) translateX(-28px); */
+  transform-origin: 0 100%;
+  position: absolute;
+  transform: rotate(90deg);
+  width: 160px;
+  height: 70px;
+  top: -25px;
+  margin-left: 20px;
+}
+header h1 a {
+  color: #0c486c;
+  font-size: 34px;
+
+  font-weight: 800;
+}
+header h1 a span{
+  font-size: 12px;
+  color: #ccc;
+}
+header ul.gnb {
+  display: inline-block;
+  /*! width: 72%; */
+  position: fixed;
+  margin-left: 0;
+  /*! margin-top: calc(100% - -580px); */
+  /*! margin-top: 255%; */
+  text-align: end;
+  vertical-align: bottom;
+  right: 30px;
+  top: 40px;
+}
+header ul.gnb li {
+  /*! display: flex; */
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+  border: 2px solid #000;
+  cursor: pointer;
+  position: relative;
+}
+header ul.gnb li a {
+  display: block;
+  color: #fff;
+  letter-spacing: -1px;
+  font-size: 0;
+}
+header ul.gnb li:nth-child(1) {
+  background-image: url(../img/profile.png);
+  background-size: 110%;
+}
+header ul.gnb li:nth-child(1)::before {
+  content: "aboout";
+  position: absolute;
+  left: -40px;
+  top: 20px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+header ul.gnb li:nth-child(2) {
+  background-image: url(../img/flask.png);
+  background-size: 95%;
+  background-color: #7ddac2;
+}
+header ul.gnb li:nth-child(2)::before {
+  content: "skills";
+  position: absolute;
+  left: -40px;
+  top: 20px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+header ul.gnb li:nth-child(3) {
+  background-image: url(../img/register.png);
+  background-size: 110%;
+}
+header ul.gnb li:nth-child(4) {
+  background-image: url(../img/comment.png);
+  background-size: 110%;
+}
+header ul.gnb li:hover{
+  background-size: 150%;
+}
+header a.allmenu {
+  font-size: 0;
+  border: 2px solid red;
+  width: 7px;
+  height: 7px;
+  position: relative;
+  display: block;
+}
+header a.allmenu span{
+  display: block;
+  width: 7px;
+  height: 7px;
+  border: 2px solid white;
+  position: absolute;
+  left: -15px;
+  top: -2px;
+  transition: all 0.5s;
+}
+header a.allmenu span:hover{
+  border-color: red;
+}
+header a.allmenu span::before{
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border: 2px solid white;
+  position: absolute;
+  left: -2px;
+  top: 11px;
+  transition: all 0.5s;
+}
+header a.allmenu span:hover::before{
+  border-color: red;
+}
+header a.allmenu span::after{
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border: 2px solid white;
+  position: absolute;
+  left: 11px;
+  top: 11px;
+  transition: all 0.5s;
+}
+header a.allmenu span:hover::after{
+  border-color: red;
+}
